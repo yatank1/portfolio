@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yatan Kumar | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Yatan Kumar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#internship">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="overlay"></div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-12 text-center">
+          <h1 class="display-1 fw-bold text-white" data-aos="fade-up">Hello, I'm <span id="typed-text" style="color: #5a7bef;"></span></h1>
+          <p class="lead text-white mb-4" data-aos="fade-up" data-aos-delay="200">Full Stack Web Developer | Blockchain Enthusiast | Tech Innovator</p>
+          <div data-aos="fade-up" data-aos-delay="400">
+            <a href="#projects" class="btn btn-primary btn-lg me-2">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+          </div>
+          <div class="scroll-down" data-aos="fade-up" data-aos-delay="600">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">About Me</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-5" data-aos="fade-right">
+          <img src="assets/profile.jpg" alt="Profile" class="img-fluid rounded-circle profile-img">
+        </div>
+        <div class="col-md-7" data-aos="fade-left">
+          <h3 class="mb-4">Who I Am</h3>
+          <p class="lead">I'm a results-driven developer with expertise in MERN stack, Java Servlet, Spring Boot, Motoko language, and Web3 development.</p>
+          <p>Passionate about building scalable web applications and decentralized solutions. Business-minded with a strong foundation in digital marketing, leveraging technology for growth and innovation. Adept at crafting seamless user experiences, optimizing performance, and driving digital success through cutting-edge development and strategic marketing.</p>
+          <p>Currently pursuing B.Tech in Information Technology from University of Calcutta (2022-2026) with a focus on modern web technologies and blockchain development.</p>
+          <div class="contact-info mt-4">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-envelope me-3"></i>
+              <span>yatankumarofficial@gmail.com</span>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-phone me-3"></i>
+              <span>8695394935</span>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-map-marker-alt me-3"></i>
+              <span>Kolkata, India</span>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fab fa-github me-3"></i>
+              <span>github.com/yatank1</span>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#" class="btn btn-primary me-2"><i class="fas fa-download me-2"></i>Download CV</a>
+            <a href="#contact" class="btn btn-outline-dark">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+          <p class="lead" data-aos="fade-up" data-aos-delay="200">Here are some of the technologies I work with</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Frontend -->
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <div class="card skills-card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-4"><i class="fas fa-laptop-code me-2"></i>Frontend</h3>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>HTML5/CSS3</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>JavaScript</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>React.js</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Bootstrap</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card skills-card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-4"><i class="fas fa-server me-2"></i>Backend</h3>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Node.js</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Express.js</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Java/Spring Boot</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>RESTful APIs</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blockchain & Others -->
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card skills-card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-4"><i class="fas fa-link me-2"></i>Blockchain & Others</h3>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Web3 & Blockchain</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Motoko Language</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Databases (MongoDB, MySQL)</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Git & Agile Methodologies</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases & Tools -->
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card skills-card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-4"><i class="fas fa-database me-2"></i>Databases & Tools</h3>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>MongoDB, PostgreSQL, MySQL</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Git, GitHub, Agile Methodologies</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Postman, VS Code</span>
+                  <span>92%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Problem-Solving, Team Collaboration</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">Education</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-up">
+          <div class="card education-card h-100">
+            <div class="card-body">
+              <h3 class="mb-4">B.Tech Information Technology</h3>
+              <p>University of Calcutta</p>
+              <p>2022 - 2026</p>
+              <p>CGPA: 8.72</p>
+
+              <h3 class="mt-5 mb-4">Senior Secondary (Class 12)</h3>
+              <p>Kendriya Vidyalaya CMERI, West Bengal</p>
+              <p>2021 - 2022</p>
+              <p>Percentage: 92.6%</p>
+
+              <h3 class="mt-5 mb-4">Secondary (Class 10)</h3>
+              <p>Kendriya Vidyalaya CMERI, West Bengal</p>
+              <p>2019 - 2020</p>
+              <p>Percentage: 95%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card education-card h-100">
+            <div class="card-body">
+              <h3 class="mb-4">Achievements</h3>
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">WBJEE All India Rank 593</h5>
+                </div>
+                <p class="ms-4 mb-0">Secured All India Rank 593 in one of India's toughest engineering entrance exams</p>
+              </div>
+
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">State Level Rank Holder</h5>
+                </div>
+                <p class="ms-4 mb-0">Secured State Level Rank 3 in Bharatiya Sanskrit Gyan Pariksha</p>
+              </div>
+
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">Pre-regional Mathematics Olympiad Qualifier</h5>
+                </div>
+                <p class="ms-4 mb-0">Qualified for the prestigious mathematics competition</p>
+              </div>
+
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">Green Olympiad</h5>
+                </div>
+                <p class="ms-4 mb-0">Merit Certificate Holder</p>
+              </div>
+
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">IIT Bombay Techfest Top 30 teams</h5>
+                </div>
+                <p class="ms-4 mb-0">Ranked among the Top 30 Teams in a nationwide challenge. Organized by IIT Bombay</p>
+              </div>
+
+              <div class="achievement-item mb-4">
+                <div class="d-flex align-items-center">
+                  <span class="achievement-dot me-3">●</span>
+                  <h5 class="mb-0">Hult Prize -Organising commette head</h5>
+                </div>
+                <p class="ms-4 mb-0">Successfully led the international Hult Prize competition at the University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="internship" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">Work Experience</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-5" data-aos="fade-right">
+          <img src="assets/encrypta_logo.svg" alt="Encrypta Logo" class="img-fluid rounded internship-img">
+        </div>
+        <div class="col-md-7" data-aos="fade-left">
+          <h3 class="company-name">Encrypta Roukela</h3>
+          <h4>Cybersecurity Tester & Server Maintenance</h4>
+          <p class="internship-duration"><i class="far fa-calendar-alt me-2"></i>March 2025 - May 2025</p>
+          <p>Currently doing an internship at Encrypta Roukela, a cybersecurity company, where I work as a tester who maintains servers.</p>
+          <div class="internship-skills">
+            <span class="badge bg-primary me-2 mb-2">Cybersecurity</span>
+            <span class="badge bg-primary me-2 mb-2">Server Maintenance</span>
+            <span class="badge bg-primary me-2 mb-2">Testing</span>
+            <span class="badge bg-primary me-2 mb-2">Network Security</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+          <p class="lead" data-aos="fade-up" data-aos-delay="200">Check out some of my recent work</p>
+        </div>
+      </div>
+
+      <div class="row" id="projects-container">
+        <!-- Weather Notify Project -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+          <div class="card project-card h-100">
+            <img src="assets/project1.jpg" class="card-img-top" alt="Weather Notify">
+            <div class="card-body">
+              <h5 class="card-title">Weather Notify</h5>
+              <p class="card-text">A real-time weather notification app using JavaScript, Node.js, and Express.js. Fetches live weather data and provides instant updates on temperature, humidity, and conditions.</p>
+              <p class="tech-stack"><small class="text-muted">JavaScript, Node.js, Express.js, Weather APIs</small></p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-eye me-1"></i>View Demo</a>
+              <a href="#" class="btn btn-outline-dark"><i class="fab fa-github me-1"></i>GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hospital Management System Project -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card project-card h-100">
+            <img src="assets/project2.jpg" class="card-img-top" alt="Hospital Management System">
+            <div class="card-body">
+              <h5 class="card-title">Hospital Management System</h5>
+              <p class="card-text">A web-based solution for healthcare operations. Collaborated with a team of 5 members to develop a web-based application for streamlined operations. Led the Appointment Scheduling & Management module.</p>
+              <p class="tech-stack"><small class="text-muted">MERN Stack, MongoDB, Express.js, React.js, Node.js, HTML/CSS</small></p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-eye me-1"></i>View Demo</a>
+              <a href="#" class="btn btn-outline-dark"><i class="fab fa-github me-1"></i>GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- DBank Project -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card project-card h-100">
+            <img src="assets/project3.jpg" class="card-img-top" alt="DBank">
+            <div class="card-body">
+              <h5 class="card-title">DBank (Decentralized Banking App)</h5>
+              <p class="card-text">A decentralized Web3 banking system using Motoko & Internet Computer. Implemented smart contracts for transaction processing & enhanced security. Features real-time balance updates & deposit-withdrawal functionality.</p>
+              <p class="tech-stack"><small class="text-muted">Motoko, Internet Computer, Web3, JavaScript</small></p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-eye me-1"></i>View Demo</a>
+              <a href="#" class="btn btn-outline-dark"><i class="fab fa-github me-1"></i>GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crypto Tracker Project -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card project-card h-100">
+            <img src="assets/project4.jpg" class="card-img-top" alt="Crypto Tracker">
+            <div class="card-body">
+              <h5 class="card-title">Crypto Tracker</h5>
+              <p class="card-text">A decentralized cryptocurrency tracking application built on Internet Computer for enhanced security and reliability. Features secure & scalable with Internet Computer blockchain integration.</p>
+              <p class="tech-stack"><small class="text-muted">Motoko, Internet Computer, Web3, React.js</small></p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-eye me-1"></i>View Demo</a>
+              <a href="#" class="btn btn-outline-dark"><i class="fab fa-github me-1"></i>GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <a href="#" class="btn btn-primary btn-lg">View All Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">Certificates</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-up">
+          <div class="card certificates-card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Full Stack Development</h4>
+              <ul class="certificate-list">
+                <li>
+                  <span class="certificate-title">Full Stack Development & Web3</span>
+                  <p class="certificate-desc">Online</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card certificates-card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Digital Marketing</h4>
+              <ul class="certificate-list">
+                <li>
+                  <span class="certificate-title">Digital Marketing</span>
+                  <p class="certificate-desc">Google</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card certificates-card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Python</h4>
+              <ul class="certificate-list">
+                <li>
+                  <span class="certificate-title">Python</span>
+                  <p class="certificate-desc">Udemy</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card certificates-card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Languages</h4>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <h5>C/C++</h5>
+                    <p class="text-muted">Full Professional Proficiency</p>
+                  </div>
+                  <div class="mb-3">
+                    <h5>Java</h5>
+                    <p class="text-muted">Full Professional Proficiency</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <h5>HTML/CSS</h5>
+                    <p class="text-muted">Full Professional Proficiency</p>
+                  </div>
+                  <div class="mb-3">
+                    <h5>JavaScript/React/Motoko</h5>
+                    <p class="text-muted">Full Professional Proficiency</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+          <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+          <p class="lead" data-aos="fade-up" data-aos-delay="200">Have a question or want to work together?</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="contact-info mb-5">
+            <h3 class="mb-4">Contact Information</h3>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Kolkata, India</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>yatankumarofficial@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>8695394935</p>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <p>github.com/yatank1</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3 class="mb-4">Follow Me</h3>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card contact-form-card">
+            <div class="card-body">
+              <h3 class="card-title mb-4">Send Me a Message</h3>
+              <form id="contact-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="name" name="user_name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="email" name="user_email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+              </form>
+              <div id="form-message" class="mt-3"></div>
+              <div class="mt-3 small text-muted">
+                <p><strong>Note:</strong> This contact form is currently in demo mode:</p>
+                <ol>
+                  <li>Form submissions are stored in browser's localStorage</li>
+                  <li>Email notifications to yatankumarcantact@gmail.com are simulated</li>
+                  <li>For production, you can set up EmailJS or a server-side solution</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center text-white">
+    <div class="container">
+      <p>&copy; 2023 Yatan Kumar. All Rights Reserved.</p>
+      <p>Designed with <i class="fas fa-heart"></i> by Yatan Kumar</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- EmailJS Library -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!-- Typed.js Library for typing animation -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
